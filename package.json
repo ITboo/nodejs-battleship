@@ -4,7 +4,8 @@
   "description": "",
   "main": "./src/index.ts",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "tsnd -r tsconfig-paths/register ./src/index.ts"
   },
   "author": "Hanna Parfenava",
   "license": "ISC",
